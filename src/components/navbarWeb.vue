@@ -6,10 +6,10 @@
             <RouterLink to="/" class="menu-item">خانه</RouterLink>
             <RouterLink to="/about" class="menu-item">درباره ما</RouterLink>
         </div>
-        <div class="brand">
+        <RouterLink to="/dashboard" class="brand">
             <div class="logo-text">Hamsaye</div>
             <img class="logo" src="/images/SVG/LOGO.svg">
-        </div>
+        </RouterLink>
         
     </section>
 </template>
